@@ -20,7 +20,9 @@
                     <ItemProperties/>
                     <ChildItems>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Prompt" id="5" version="1.2">
-                            <ItemProperties/>
+                            <ItemProperties>
+                                <Property name="Name" value="prompt1"/>
+                            </ItemProperties>
                             <ChildItems/>
                         </FlowItem>
                         <FlowItem class="com.avaya.sce.callflow.internal.flowitem.Submit" id="6" version="1.2">
